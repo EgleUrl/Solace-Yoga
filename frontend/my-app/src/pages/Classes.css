@@ -1,0 +1,5 @@
+.cardc {
+    background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.4)), url('../assets/testemonials.png');
+    background-size: cover;
+    position: relative;
+}

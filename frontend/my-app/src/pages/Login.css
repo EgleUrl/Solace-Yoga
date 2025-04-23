@@ -1,0 +1,14 @@
+  
+  .login-page .form-label {
+    color: var(--color-text);
+  }
+  
+  .login-page .btn-primary {
+    background-color: var(--color-primary);
+    border: none;
+  }
+  
+  .login-page .btn-primary:hover {
+    background-color: var(--color-secondary);
+  }
+  

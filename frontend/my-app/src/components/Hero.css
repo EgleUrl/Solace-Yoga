@@ -1,0 +1,11 @@
+.hero {
+    background-color: var(--color-text); ;
+    padding: 60px 0;
+  }
+  
+  .hero h1 {    
+    margin-bottom: 5vh;
+  }
+  .hero h1, .hero p {
+    color: var(--color-white);
+  }

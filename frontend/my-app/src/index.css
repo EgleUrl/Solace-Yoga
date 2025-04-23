@@ -1,0 +1,18 @@
+/* This is the main CSS file for the application. It contains global styles and variables. */
+:root {
+  /* Color palette */
+  --color-primary: #5B8675; /* Moss green */
+  --color-secondary: #E09276; /* Coral Blush */
+  --color-background: #FFFAF8; /* Pale Peach */
+  --color-text: #8B6B4A; /* Earth Brown */
+  --color-white: #FFFFFF; /* White */
+
+   /* Typography */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Lato', sans-serif;
+
+  width: 100%;
+  margin: 0 auto;  
+  text-align: center;
+  box-sizing: border-box;   
+}

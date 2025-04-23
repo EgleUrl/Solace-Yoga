@@ -1,0 +1,29 @@
+footer a:hover {
+    color: var(--color-secondary);
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  .quick-links {
+    display: flex;
+    flex-wrap: wrap; /* This will let links wrap to new lines if needed */
+    justify-content: center; /* Center the links */
+    gap: 8px; /* Spacing between links */
+  }
+  
+  .footer-link {
+    color: var(--color-white);
+    text-decoration: none;
+    margin: 0 5px;
+    white-space: nowrap; /* Prevents breaking words */
+  }
+  .social-icon {
+    color: var(--color-white);
+    margin: 0 5px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: var(--color-secondary); /* Coral Blush or your highlight color */
+    transform: scale(1.2); /* Optional: smooth zoom effect */
+  }
+     

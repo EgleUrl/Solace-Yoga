@@ -1,0 +1,22 @@
+.pageheader-main {
+    background: url("../assets/breadcrumbs.png") no-repeat top;    
+    height: 100%; 
+    width: 100%;  
+    background-size: cover;
+    background-position: center;
+    display: flex;      
+}
+.pageheader-content {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.7); /* Optional: soft background for text readability */    
+    border-radius: 8px;
+    margin-top: 5vh;    
+    color: var(--color-primary);      
+}
+li {
+    font-weight: bold;       
+}
+.link {
+    color: var(--color-text);
+    text-decoration: none;    
+}

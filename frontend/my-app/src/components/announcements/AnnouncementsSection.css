@@ -1,0 +1,16 @@
+.cardh {
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.9)), url('../../assets/hero-image.png');
+    background-size: cover;
+    position: relative;
+}
+/* Override Bootstrap checkbox appearance */
+.custom-checkbox input[type="checkbox"] {
+    accent-color: var(--color-primary);  /* modern browsers */
+  }
+  
+  /* For older browsers that don't support accent-color */
+  .custom-checkbox input[type="checkbox"]:checked {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+  }
+  
