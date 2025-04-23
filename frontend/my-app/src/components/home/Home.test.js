@@ -1,5 +1,5 @@
-// Home page components unit testiing
-import { describe, it, expect, vi } from 'vitest';
+// Home page components unit testing
+// Home page components unit testing with Jest
 import { render, screen, fireEvent } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import BigImage from './BigImage';
@@ -8,16 +8,16 @@ import FeaturedClasses from './FeaturedClasses';
 import Testimonials from './Testimonials';
 import NewsletterSignup from './NewsletterSignup';
 
-// Mock assets (like hero image)
-vi.mock('../assets/hero-image.png', () => 'hero-image.png');
 
+
+// Helper to wrap components in Router
 const withRouter = (Component) => (
   <BrowserRouter>
     <Component />
   </BrowserRouter>
 );
 
-describe('Home Section Components', () => {
+describe('Home Section Components (Jest)', () => {
   it('renders BigImage with heading and button', () => {
     render(withRouter(BigImage));
     expect(screen.getByText(/welcome to solace yoga/i)).toBeInTheDocument();
@@ -49,6 +49,7 @@ describe('Home Section Components', () => {
   it('renders NewsletterSignup and handles form interaction', () => {
     render(withRouter(NewsletterSignup));
     expect(screen.getByText(/stay connected/i)).toBeInTheDocument();
+
     const input = screen.getByPlaceholderText(/your email/i);
     const button = screen.getByRole('button', { name: /subscribe/i });
 
