@@ -4,14 +4,10 @@ Welcome to **Solace Yoga**, a full-stack web application built to manage yoga st
 
  ![image](https://github.com/user-attachments/assets/d79fe1eb-6aab-4bad-b670-4e264182b942)
 
-
-
-
 ## Content:
 1. [Features](#features)
 2. [Tech Stack](#tech-stack)
 3. [Design solutions](#design-solutions)
-4. [Database schema](#databse-schema)
 5. [Getting Started](#getting-started)
 6. [API documentation](#api-documentation)
 7. [Testing](#testing)
@@ -66,9 +62,6 @@ Welcome to **Solace Yoga**, a full-stack web application built to manage yoga st
 ### Moodboard
 
 ![image](https://github.com/user-attachments/assets/81ef9246-bb10-46f6-80f2-c64cdd371486)
-
-
-
 
 ##  Getting Started
 
