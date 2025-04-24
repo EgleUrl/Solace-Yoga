@@ -1,4 +1,4 @@
-#  Solace Yoga Platform
+#  Solace Yoga Website
 
 Welcome to **Solace Yoga**, a full-stack web application built to manage yoga studio operations. The system provides seamless account management, class booking, payment handling, and communication between clients, teachers, and administrators.
 
