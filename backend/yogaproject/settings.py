@@ -28,7 +28,8 @@ SECRET_KEY = 'django-insecure-^cu&8t0#qqb2&b$7@a2(y$v^qb6o$^8q7s)@nqlmrgm4v_$5&n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['13.49.74.138', 'localhost', '127.0.0.1']
+
 
 
 # Application definition
@@ -98,12 +99,15 @@ DATABASES = {
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',  # React app
+    'http://localhost:3000',
+    'http://13.49.74.138:3000',
 ]
-# In production, use HTTPS and secure cookies!
+
 CSRF_TRUSTED_ORIGINS = [
-    "http://localhost:3000",
+    'http://localhost:3000',
+    'http://13.49.74.138:3000',
 ]
+
 
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
