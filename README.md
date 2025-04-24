@@ -232,7 +232,8 @@ npm test
 - Runs in github actions everytime the git push is done
 - After the successful push it deployes any changes to EC2 instance on AWS
 
-  
+  ![image](https://github.com/user-attachments/assets/72870131-611b-49cb-9300-999e8afd2692)
+
 
 ## Future improvements
 - Make production ready app using gunicorn and NGNIX
