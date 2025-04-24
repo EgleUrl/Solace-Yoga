@@ -219,6 +219,7 @@ Response triggers booking email confirmation.
 ### React Jest testing
 - Integration test of login page testing
 - Unit tests for Home page components
+- Login.test.js and Home.test.js
 
 ![image](https://github.com/user-attachments/assets/153d9934-3c6d-45e1-9851-72f18007bf81)
 
@@ -227,6 +228,11 @@ cd frontend
 cd my-app
 npm test
 ```
+### CI/CD pipeline
+- Runs in github actions everytime the git push is done
+- After the successful push it deployes any changes to EC2 instance on AWS
+
+  
 
 ## Future improvements
 - Make production ready app using gunicorn and NGNIX
