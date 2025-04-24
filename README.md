@@ -2,7 +2,8 @@
 
 Welcome to **Solace Yoga**, a full-stack web application built to manage yoga studio operations. The system provides seamless account management, class booking, payment handling, and communication between clients, teachers, and administrators.
 
- ![image](https://github.com/user-attachments/assets/d2adce3a-3d5f-4060-9d1d-86d11bda9cae)
+ ![image](https://github.com/user-attachments/assets/2e047915-4f12-401e-ba6d-1fee5d510527)
+
 
 
 ## Content:
