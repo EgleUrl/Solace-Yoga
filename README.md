@@ -10,7 +10,7 @@ Welcome to **Solace Yoga**, a full-stack web application built to manage yoga st
 2. [Tech Stack](#tech-stack)
 3. [Getting Started](#getting-started)
 4. [API documentation](#api-documentation)
-5. [Testing](https://github.com/egleurl/solace-yoga/wiki/Testing-Guide)
+5. [Testing](#testing)
 6. [Future improvements](#future-improvements)
    
 ##  Features
@@ -23,7 +23,7 @@ Welcome to **Solace Yoga**, a full-stack web application built to manage yoga st
 ###  Core Functionalities
 - **User Authentication** (JWT with HttpOnly cookie refresh support)
 - **Google OAuth Login**
-- **Responsive UI** with React-Bootstrap
+- **Responsive UI** with  Bootstrap and React-Bootstrap
 - **Role-Based Dashboards (Announcement page)**
 - **Booking System** for yoga classes
 - **Stripe and Paypal** payment processes
@@ -209,16 +209,28 @@ Response triggers booking email confirmation.
 - Unit tests for the YogaClass model to check if teacher user can create a yoga class
 - Integration test for booking duplicate prevention
 
+  ![image](https://github.com/user-attachments/assets/69d85048-0a40-4d20-ae67-4be0bbcc197c)
+  
+  ```bash
+  cd backend
+  docker-compose exec web pytest
+
 ### React Jest testing
 - Integration test of login page testing
 - Unit tests for Home page components
 
 ![image](https://github.com/user-attachments/assets/153d9934-3c6d-45e1-9851-72f18007bf81)
 
+```bash
+cd frontend
+cd my-app
+npm test
+```
+
 ## Future improvements
-- Make production ready apps using gunicorn and NGNIX
+- Make production ready app using gunicorn and NGNIX
 - Integrate HTTPS to ensure security
-- Improve design to make app more accessibility compatible
+- Improve design to make app more compatible with accessibility 
 
 
 
