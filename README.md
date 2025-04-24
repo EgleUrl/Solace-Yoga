@@ -9,10 +9,12 @@ Welcome to **Solace Yoga**, a full-stack web application built to manage yoga st
 ## Content:
 1. [Features](#features)
 2. [Tech Stack](#tech-stack)
-3. [Getting Started](#getting-started)
-4. [API documentation](#api-documentation)
-5. [Testing](#testing)
-6. [Future improvements](#future-improvements)
+3. [Design solutions](#design-solutions)
+4. [Database schema](#databse-schema)
+5. [Getting Started](#getting-started)
+6. [API documentation](#api-documentation)
+7. [Testing](#testing)
+8. [Future improvements](#future-improvements)
    
 ##  Features
 
