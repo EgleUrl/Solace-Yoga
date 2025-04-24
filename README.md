@@ -2,7 +2,8 @@
 
 Welcome to **Solace Yoga**, a full-stack web application built to manage yoga studio operations. The system provides seamless account management, class booking, payment handling, and communication between clients, teachers, and administrators.
 
- ![image](https://github.com/user-attachments/assets/2e047915-4f12-401e-ba6d-1fee5d510527)
+ ![image](https://github.com/user-attachments/assets/d79fe1eb-6aab-4bad-b670-4e264182b942)
+
 
 
 
@@ -57,10 +58,17 @@ Welcome to **Solace Yoga**, a full-stack web application built to manage yoga st
 
 ### Deployment
 - Docker
-- AWS (S3, EC2, RDS ready)
+- AWS (EC2 instance)
 - GitHub Actions for CI/CD (deployment to AWS)
 
 ---
+## Design solutions
+### Moodboard
+
+![image](https://github.com/user-attachments/assets/81ef9246-bb10-46f6-80f2-c64cdd371486)
+
+
+
 
 ##  Getting Started
 
