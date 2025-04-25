@@ -20,6 +20,84 @@ Welcome to **Solace Yoga**, a full-stack web application built to manage yoga st
 - **Teacher**: Manage their own profile, classes, and announcements.
 - **Client**: Register, book yoga classes, and receive updates.
 
+#### Dynamic Announcements page
+For regular website user (not looged in) shows just announcements
+![image](https://github.com/user-attachments/assets/77343d14-f3c3-4cfa-b93a-53a895bbfce2)
+
+For Client it shows upcomming classes and announcements
+![image](https://github.com/user-attachments/assets/dbc1e368-2294-41a7-90a7-db993fa95aac)
+
+For Teacher user it shows upcoming their classes with the number of students who booked that class, 
+also teachers can create, edit or delete their own announcements
+![image](https://github.com/user-attachments/assets/09c0c8a3-6f70-4775-ac31-81a84966da96)
+![image](https://github.com/user-attachments/assets/fc894d43-d1f6-4666-a4f2-96a9f9fa2bd9)
+![image](https://github.com/user-attachments/assets/a5812ee0-5abe-4dfd-a2be-c6050182085b)
+
+Admins have full CRUD on all announcements
+![image](https://github.com/user-attachments/assets/71b3b772-88f4-45a2-86cb-eaf790ed2126)
+![image](https://github.com/user-attachments/assets/42c74c48-eecf-4940-9b13-0639d4b1fc31)
+
+Admins have admin panel on localhost:8000/admin
+They have full CRUD on users, teachers profiles, announcements, bookings, classes and their occurrences
+![image](https://github.com/user-attachments/assets/279bd4af-d038-4eba-82a0-397244c3fa62)
+Signal implementation on classes, when class is created and period is chosen (start and end dates),
+signal is triggered and it creates class occurrences for that period automatically
+![image](https://github.com/user-attachments/assets/f612dc7a-89e3-4f08-9b2e-149668ee6725)
+![image](https://github.com/user-attachments/assets/d586fbc2-d53e-44a4-850a-4165da22dd1a)
+
+Filtered new created class on Fridays
+
+![image](https://github.com/user-attachments/assets/577aebe7-90bd-4cd6-a5f5-25c75ad612de)
+
+Class booking is protected, users booking the class must be logged in, if they are not logged in, they are automatically redirected to login page
+
+![image](https://github.com/user-attachments/assets/d0289cd0-655a-431c-8918-76a78f0d535a)
+
+If login is successful they are redirected back to classes page
+
+![image](https://github.com/user-attachments/assets/ad83841c-9195-4710-ace2-727a438bfb66)
+
+If they do not have the account, they can create one by pressing Sing up
+
+![image](https://github.com/user-attachments/assets/0adc20ed-e02b-4e11-9c74-64ecb614936e)
+
+Basket page, Checkout page and Success page are protected pages, can be accessed only by logged in users
+
+![image](https://github.com/user-attachments/assets/618dea06-87ba-4237-b2db-61dd86d421fa)
+
+Two payment options
+
+![image](https://github.com/user-attachments/assets/9ba75c35-46f9-4083-84d2-4998a8abdafd)
+
+Stripe payment option
+
+![image](https://github.com/user-attachments/assets/2e773f56-9ad2-4c89-9d0e-5ad6ee497f5a)
+
+Paypal payment option
+
+![image](https://github.com/user-attachments/assets/da5bd84c-48b1-4c87-b754-47323fbd1897)
+
+Paypal is in sandbox mode details to test it must be correct, though no money will be taken from the real card.
+
+Stripe is in test mode, for this to test 4242 4242 4242 4242 card must be used.
+
+Dynamic navigation bar 
+
+![image](https://github.com/user-attachments/assets/ef60c29e-744f-4503-bbd1-7277d08374d8)
+
+
+![image](https://github.com/user-attachments/assets/9aed120a-4b98-4896-8f27-141246897723)
+
+Dynamic Breadcrumbs section
+
+![image](https://github.com/user-attachments/assets/4af41dc1-5aeb-4af5-8b16-84d9c88e6afc)
+
+
+![image](https://github.com/user-attachments/assets/0e7bbe71-df70-4988-8e6c-765a0e8e25d9)
+
+
+
+
 ###  Core Functionalities
 - **User Authentication** (JWT with HttpOnly cookie refresh support)
 - **Google OAuth Login**
