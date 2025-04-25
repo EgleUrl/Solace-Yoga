@@ -331,7 +331,8 @@ npm test
 ## Future improvements
 - Make production ready app using gunicorn and NGNIX
 - Integrate HTTPS to ensure security
-- Improve design to make app more compatible with accessibility 
+- Improve design to make app more compatible with accessibility
+- Reduce the size of imgaes to improve performance
 
 
 
