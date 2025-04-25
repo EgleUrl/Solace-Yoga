@@ -42,6 +42,7 @@ They have full CRUD on users, teachers profiles, announcements, bookings, classe
 ![image](https://github.com/user-attachments/assets/279bd4af-d038-4eba-82a0-397244c3fa62)
 Signal implementation on classes, when class is created and period is chosen (start and end dates),
 signal is triggered and it creates class occurrences for that period automatically
+Found at backend\studio\signal.py
 ![image](https://github.com/user-attachments/assets/f612dc7a-89e3-4f08-9b2e-149668ee6725)
 ![image](https://github.com/user-attachments/assets/d586fbc2-d53e-44a4-850a-4165da22dd1a)
 
@@ -95,6 +96,9 @@ Dynamic Breadcrumbs section
 
 ![image](https://github.com/user-attachments/assets/0e7bbe71-df70-4988-8e6c-765a0e8e25d9)
 
+Login function with Google OAuth
+
+![image](https://github.com/user-attachments/assets/e72c46e8-cab6-44c4-a3a1-e25cbd9afae0)
 
 
 
