@@ -136,7 +136,15 @@ Login function with Google OAuth
 
 ### Deployment
 - Docker
+
+ ![image](https://github.com/user-attachments/assets/57767d02-78e3-482c-9f73-df020350421c)
+ ![image](https://github.com/user-attachments/assets/05cfbc58-eb61-45fb-8c28-e4c7605e866b)
+
+
 - AWS (EC2 instance)
+
+ ![image](https://github.com/user-attachments/assets/553c3f74-0aab-42bf-8025-09fefff0529b)
+
 - GitHub Actions for CI/CD (deployment to AWS)
 
 ---
